@@ -14,7 +14,7 @@ import requests
 from pathlib import Path
 
 # ── Config ──────────────────────────────────────────────────────────────────
-OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://100.69.65.101:11434")
+OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://<ARCH_CLUSTER_TAILSCALE_IP>:11434")
 OLLAMA_MODEL    = os.environ.get("OLLAMA_MODEL",    "qwen3.5:27b")
 CHUNK_LINES     = 40   # lines per AI call
 TIMEOUT         = 120  # seconds — allow for 27B model inference
