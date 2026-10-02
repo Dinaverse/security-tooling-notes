@@ -1,6 +1,6 @@
-# 🛡️ Sovereign AI Security
+# Security Tooling Notes
 
-> *AI-driven security tooling built on NVIDIA Morpheus, Triton Inference Server, and custom Python pipelines for high-performance, local threat detection without cloud exposure.*
+> Early-stage notes and scripts exploring NVIDIA Morpheus and Triton Inference Server for local threat detection.
 
 ---
 
